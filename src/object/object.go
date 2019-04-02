@@ -21,7 +21,7 @@ const (
 	STRING_OBJ       = "STRING"
 	BUILTIN_OBJ      = "BUILTIN"
 	ARRAY_OBJ        = "ARRAY"
-	HASH_OBj         = "HASH"
+	HASH_OBJ         = "HASH"
 )
 
 // Object is [TODO]
@@ -204,7 +204,7 @@ type Hash struct {
 }
 
 // Type is [TODO]
-func (h *Hash) Type() ObjectType { return HASH_OBj }
+func (h *Hash) Type() ObjectType { return HASH_OBJ }
 
 // Inspect is [TODO]
 func (h *Hash) Inspect() string {
